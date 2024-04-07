@@ -1,2 +1,26 @@
 
 Variables are containers that are used to store data.
+
+How to declare variable in Python?
+To declare a variable in Python simply assign a value to it.
+Example
+name = "Pikachu"
+
+#Program 1 
+name = "Pikachu"
+print(name)
+
+#Program 2
+
+pokemon_name = "Pikachu"
+pokemon_type = "Electric"
+pokemon_color = "Yellow"
+pokemon_speed = 25
+
+print(pokemon_name)
+print(pokemon_type)
+print(pokemon_color)
+print(pokemon_speed)
+
+
+
