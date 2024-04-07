@@ -23,10 +23,28 @@ print(pokemon_color)
 print(pokemon_speed)
 
 
+Data Types 
 String - 
 In Python, a string is a sequence of characters enclosed within either single quotes ' ' or double quotes " "
 Strings can contain letters, numbers, symbols, and spaces
 Example - "Hello world" , "Nepal" , "Apple" , "Ramesh", "Neharika"
+
+integers - Numbers negative 0 or positive. 18 ,200 , 4 ,
+
+
+Program 
+
+pokemon_name = "Pikachu"
+pokemon_type = "electric"
+pokemon_speed = 100
+
+print("Name:",pokemon_name)
+print("Type:",pokemon_type)
+print("Speed:",pokemon_speed)
+
+print(type(pokemon_name))
+print(type(pokemon_type))
+print(type(pokemon_speed))
 
 
 
