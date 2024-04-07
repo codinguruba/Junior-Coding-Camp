@@ -1,0 +1,2 @@
+
+Variables are containers that are used to store data.
