@@ -46,6 +46,22 @@ print(type(pokemon_name))
 print(type(pokemon_type))
 print(type(pokemon_speed))
 
+Comments in Python - Comments  can be used to explain Python code. Comment is not executed
+Comments starts with  # 
+Example of a comment
+
+Data types are classifications that categorize various types of data that can be used in programming
+int - Integer type represents whole numbers without any fractional part.
+float - Floating-point type represents numbers with a fractional part
+String -  String type represents sequences of  characters, used for text manipulation.
+
+a = 5
+print(type(a))
+
+In Python, the type() function is used to get the data type of an object
+
+
+
 
 
 
