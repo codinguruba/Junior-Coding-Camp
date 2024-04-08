@@ -10,6 +10,14 @@ name = "Pikachu"
 name = "Pikachu"
 print(name)
 
+#Legal variable names
+myvar = "codingguruba"
+my_var = "codingguruba"
+_my_var = "codingguruba"
+myVar = "codingguruba"
+MYVAR = "codingguruba"
+myvar2 = "codinguruba"
+
 #Program 2
 
 pokemon_name = "Pikachu"
