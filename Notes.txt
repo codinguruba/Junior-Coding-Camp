@@ -70,6 +70,31 @@ print(type(a))
 
 In Python, the type() function is used to get the data type of an object
 
+Python Arithmetic Operators
+Arithmetic operators are used with numeric values to perform common mathematical operations:
+
+Operator	Name	Example	Try it
++	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y
+**	Exponentiation
+
+Python Casting - Converting one data type into another
+
+import math
+
+radius = 2
+
+area = math.pi * (radius ** 2)
+
+print("The area of the circle is:", area)
+
+Booleans represent one of two values: True or False.
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
 
 
 
