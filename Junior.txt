@@ -1,0 +1,47 @@
+
+What is Python ? 
+Python is a high level programming language this has many application such as 
+building software application , data science , Applications , Machine Learing etc.
+
+
+Variables are containers that are used to store data.
+
+
+How to declare variable in Python?
+To declare a variable in Python simply assign a value to it.
+Example
+name = "Pikachu"
+
+Printing a variable
+name = "Bigya Pant"
+print(name)
+
+Output --  Bigya Pant
+
+#Program 1
+pokemon_name = "Pikachu"
+pokemon_type = "Electric"
+pokemon_color = "Yellow"
+pokemon_speed = 25
+
+print(pokemon_name)
+print(pokemon_type)
+print(pokemon_color)
+print(pokemon_speed)
+
+Data type in Python
+A data type is a classification that specifies which type of value a variable can hold in computer programming
+
+String - 
+In Python, a string is a sequence of characters enclosed within either single quotes ' ' or double quotes " "
+Strings can contain letters, numbers, symbols, and spaces
+String Example- "Hello World " , "Kritanya Shah " , "Avinna Parajuli", "Tokha"
+
+int - Numbers negative 0 or positive  18 ,200 , 4 
+
+type function in python
+
+name = "Kritanya Shah "
+print(type(name))
+
+Output -  <class 'str'> (Because "Kritanya Shah " is a string).
