@@ -96,9 +96,23 @@ print(10 > 9)
 print(10 == 9)
 print(10 < 9)
 
+#Program
 
+length1 = int(input("Enter length:"))
+breadth1 = int(input("Enter breadth:"))
+a1 = length1*breadth1
+print("Area of rectangle 1 is:",a1)
+print("\nFor Rectangle 2......")
+length2 = int(input("Enter length:"))
+breadth2 = int(input("Enter breadth:"))
+a2 = length2*breadth2
+print("Area of rectangle 2 is:",a2)
 
-
+if(a1>a2):
+    print(a1,"is greater")
+    
+else:
+    print(a2,"is greater")
 
 
 
