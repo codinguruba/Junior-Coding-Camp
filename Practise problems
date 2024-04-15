@@ -22,3 +22,21 @@ simple_interest = (principal * rate * time) / 100
 print("The simple interest is:", simple_interest)
 
 Problem 3
+pokemon_name = input("Enter pokemon name:")
+pokemon_speed = 10
+print("Attacks - Quick attack , agility , volt tackle")
+user_input = input("Choose attack: ") 
+
+if(user_input == 'Quick attack'):
+    pokemon_speed = pokemon_speed + 5
+    print(pokemon_speed)
+
+if(user_input == 'agility'):
+    pokemon_speed = pokemon_speed + 10
+    print(pokemon_speed)
+    
+if(user_input == 'volt tackle'):
+    pokemon_speed = pokemon_speed + 20
+    print(pokemon_speed)
+    
+print("Code completed.....")
