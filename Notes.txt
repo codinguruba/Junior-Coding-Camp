@@ -116,3 +116,15 @@ else:
 
 
 
+Comparison operators are used to compare two values:
+Equal to (==): Checks if two values are equal.
+Not equal to (!=):
+Greater than (>):
+Less than (<): 
+Less than or equal to (<=):
+
+User Input
+Python allows for user input.
+That means we are able to ask the user for input.
+User input in Python can be obtained using the input() function.
+
