@@ -1,0 +1,24 @@
+Problem 1
+
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+height = float(input("Enter the height of the rectangle: "))
+
+# Calculate the volume using the provided dimensions
+volume = length * width * height
+
+# Display the calculated volume
+print("The volume of the rectangle is:", volume)
+
+
+Problem 2
+
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest (in percentage): "))
+time = float(input("Enter the time period (in years): "))
+
+# Calculate the simple interest
+simple_interest = (principal * rate * time) / 100
+print("The simple interest is:", simple_interest)
+
+Problem 3
