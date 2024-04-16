@@ -40,3 +40,26 @@ if(user_input == 'volt tackle'):
     print(pokemon_speed)
     
 print("Code completed.....")
+
+#Practise Problems
+def addition():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    add = a+b
+    print("Addition is:", add)
+    
+def subtraction():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    subtract = a-b
+    print("Subtraction is:", subtract)
+    
+def multiplication():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    multiply = a * b
+    print("Multiplication is:", multiply)
+    
+addition()
+subtraction()
+multiplication()
