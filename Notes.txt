@@ -128,3 +128,11 @@ Python allows for user input.
 That means we are able to ask the user for input.
 User input in Python can be obtained using the input() function.
 
+
+
+A function is a block of code which only runs when it is called.
+In Python a function is defined using the def keyword:
+
+def my_function():
+  print("Hello from a function")
+
