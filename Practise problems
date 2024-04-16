@@ -63,3 +63,15 @@ def multiplication():
 addition()
 subtraction()
 multiplication()
+
+
+def calculate_area(length,breadth):
+    area = length*breadth
+    print("Area is:",area)
+    
+def calculate_volume(length,breadth,height):
+    volume = length*breadth*height
+    print("Volume is:",volume)
+    
+calculate_area(5,4)
+calculate_volume(5,4,3)
