@@ -136,3 +136,29 @@ In Python a function is defined using the def keyword:
 def my_function():
   print("Hello")
 
+
+In Python, the import statement is used to bring in modules or packages into your current Python script 
+or interactive session.
+
+import math
+
+print(math.sqrt(25))  # Square root function
+print(math.pi)         
+
+import math
+
+# Calculate the square root of 25
+sqrt_result = math.sqrt(25)
+print("Square root of 25:", sqrt_result)
+
+# Calculate the factorial of 5
+factorial_result = math.factorial(5)
+print("Factorial of 5:", factorial_result)
+
+
+import math
+
+# Calculate the area of a circle with radius 5
+radius = 5
+circle_area = math.pi * radius ** 2
+print("Area of circle with radius 5:", circle_area)
