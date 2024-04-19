@@ -1,0 +1,48 @@
+
+
+
+player_name = input("Enter your name:")
+print("Hello" , player_name ,"do you want to become pokemon master?")
+pokemon_master = input("yes or no:")
+
+
+if(pokemon_master == 'yes'):
+    print("This is our pokemon master journey....")
+    pokemon_name = input("Choose your pokemon:")
+    print("Congratulation you choosed",pokemon_name )
+    print("Do you want to battle or quit?")
+    choice = input("b for battle / q for quit:")
+    
+    if(choice == 'b'):
+        print("Lets go",pokemon_name)
+        print("Press a for attack / r for run")
+        attack = input("Choose attack: ")
+        
+        if(attack == 'a'):
+            print("Pikachu  use thurder bolt")
+            print("Pikachu defeated enemy..")
+            print("Congratulation you are pokemon master")
+            
+        elif(attack == 'r'):
+            print("Pikachu run away...")
+            
+        else:
+            print("Invalid input...")
+            
+
+    
+    elif(choice == 'q'):
+        print("Haha you are a loser")
+        
+
+    else:
+        print("Invalid....")
+
+
+
+
+else:
+    print("You are a loser")
+    
+    
+print("Game Over...")
