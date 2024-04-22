@@ -162,3 +162,6 @@ import math
 radius = 5
 circle_area = math.pi * radius ** 2
 print("Area of circle with radius 5:", circle_area)
+
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+A for loop can to used to repeat a block of code.
