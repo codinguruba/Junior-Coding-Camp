@@ -75,3 +75,11 @@ def calculate_volume(length,breadth,height):
     
 calculate_area(5,4)
 calculate_volume(5,4,3)
+
+
+length = 5
+breadth = 4
+volume = 3
+area = length*breadth 
+print("The area is:",area)
+print("The volume is:",volume)
