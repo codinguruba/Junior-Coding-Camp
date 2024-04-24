@@ -1,0 +1,50 @@
+import pygame
+
+
+# Initialize Pygame
+pygame.init()
+
+# Constants
+SCREEN_WIDTH = 400
+SCREEN_HEIGHT = 400
+OBJECT_SIZE = 20
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+
+posx = 20
+posy = 20
+
+def draw():
+    screen.fill(BLACK)
+    pygame.draw.rect(screen,(0,255,255),(posx,posy,20,20))
+    pygame.display.update()
+
+# Main game loop
+running = True
+while running:
+    
+    pygame.time.delay(20)
+    # Event handling
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # Move object
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_LEFT]:
+        posx -= 5
+    if keys[pygame.K_RIGHT]:
+        posx += 5
+    if keys[pygame.K_UP]:
+        posy -= 5
+    if keys[pygame.K_DOWN]:
+        posy += 5
+
+    draw()
+
+    
+
+# Quit Pygame
+pygame.quit()
