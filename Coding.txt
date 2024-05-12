@@ -1,0 +1,19 @@
+#Day 1 Sunday May 12
+
+Problem 1
+name = "Rajesh  Hamal"
+address = "Sukedhara"
+print(name)
+print(address)
+
+
+Problem 2
+
+name = "Rajesh Hamal"
+age = 18
+print(type(name))
+print(type(age))
+
+
+
+
