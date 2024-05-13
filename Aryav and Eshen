@@ -1,0 +1,19 @@
+#Problem
+
+name = "Aryav Singh"
+age = 10
+print(name)
+print(age)
+
+Variables are containers that are used to store data.
+String - Apple , Banana , Rajesh Hamal
+int - 10 , 12 , 5 , 8
+
+
+# Problem
+name = input("Enter your name:")
+address = input("Enter your address:")
+age = int(input("Enter your age:"))
+print("The name you entered is",name)
+print("The address you entered is",address)
+print("The age you entered is",age)
