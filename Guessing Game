@@ -1,0 +1,35 @@
+#Guessing Game
+
+import random 
+
+running = True
+
+words = ["java","codingguruba","coding","python","scala","book","tea","coffee","nepal","football"]
+
+print("Welcome to our guessing game you can try upto 3 times..")
+attemp = 0 
+
+
+while running:
+    random_word = random.choice(words)
+    
+    if(attemp<3):
+        choice = input("Guess the word:")
+        
+        if(choice == random_word):
+            print("Congratulation you guess correct")
+            print("You win")
+            running = False
+            
+        else:
+            print("Incorrect .....")
+            attemp +=1
+        
+    else:
+        print("Game Over")
+        print("Too many attempts")
+        print("You loose")
+        running = False
+        
+        
+print("Outside Loop")
