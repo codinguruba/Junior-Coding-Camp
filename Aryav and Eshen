@@ -17,3 +17,15 @@ age = int(input("Enter your age:"))
 print("The name you entered is",name)
 print("The address you entered is",address)
 print("The age you entered is",age)
+
+
+initial_speed = 10
+initial_health = 10
+name = input("Hello trainer what is your name?:")
+print("Hello",name,"choose your pokemon")
+pokemon_name = input("Enter your pokemon:")
+print("Congratulations you choosed",pokemon_name)
+print("\nPokemon Stats")
+print("Pokemon Name:",pokemon_name)
+print("Pokemon Health:",initial_health)
+print("Pokemon Speed:",initial_speed)
