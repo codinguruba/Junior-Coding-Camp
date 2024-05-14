@@ -6,8 +6,9 @@ print(name)
 print(age)
 
 Variables are containers that are used to store data.
-String - Apple , Banana , Rajesh Hamal
+String - Apple , Banana , Rajesh Hamal    - It is enclosed in " ".
 int - 10 , 12 , 5 , 8
+float - 3.4 , 5.6 , 3.2
 
 
 # Problem
@@ -29,3 +30,9 @@ print("\nPokemon Stats")
 print("Pokemon Name:",pokemon_name)
 print("Pokemon Health:",initial_health)
 print("Pokemon Speed:",initial_speed)
+
+
+Boolean Values
+In programming you often need to know if an expression is True or False.
+
+== is used check equal to not
