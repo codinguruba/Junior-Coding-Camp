@@ -76,3 +76,17 @@ if(choice ==2):
     
 if(choice ==3):
     print(pokemon_name,"use thurderbolt...")
+
+
+#Choice to add and multiply
+number1 = int(input("Enter number 1:"))
+number2 = int(input("Enter number 2:"))
+choice = int(input("Press 1 for add / 2 for multiply:"))
+
+if(choice == 1):
+    add = number1+number2
+    print(add)
+    
+if(choice ==2):
+    multiply = number1*number2
+    print(multiply)
