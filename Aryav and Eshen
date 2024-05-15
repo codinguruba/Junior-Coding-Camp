@@ -1,16 +1,22 @@
 #Problem
 
+Variables
+Variables are containers that are used to store data.
+
 name = "Aryav Singh"
 age = 10
 print(name)
 print(age)
 
-Variables are containers that are used to store data.
+
+
+Data Types
 String - Apple , Banana , Rajesh Hamal    - It is enclosed in " ".
 int - 10 , 12 , 5 , 8
 float - 3.4 , 5.6 , 3.2
 
 
+Taking Input from User
 # Problem
 name = input("Enter your name:")
 address = input("Enter your address:")
@@ -35,6 +41,11 @@ print("Pokemon Speed:",initial_speed)
 Boolean Values
 In programming you often need to know if an expression is True or False.
 
+Example:
+print(3==3)  -- True
+print(3>2) --- True
+print(2>3) -- False
+
 == is used check equal to not
 
 how if works - There is a condition in below program (pokemon_level>20) so if the condition is True . "your pokemon is strong you can evolve " will print.
@@ -46,3 +57,22 @@ pokemon_speed = int(input("what is your pokemon speed:"))
 pokemon_level = int(input("what is your pokemon level:"))
 if(pokemon_level>20):
     print("your pokemon is strong you can evolve!")
+
+
+15 May Program.
+name = input("Hello what is your name:")
+print("Hi",name ,"Lets get started")
+pokemon_name = input("Choose your pokemon:")
+print("Congratulation your pokemon is",pokemon_name)
+choice = int(input("Enter your choice:"))
+
+if(choice ==1):
+    print(pokemon_name ,"Use tackle attack")
+
+    
+if(choice ==2):
+    print(pokemon_name,"Use quick attack")
+
+    
+if(choice ==3):
+    print(pokemon_name,"use thurderbolt...")
