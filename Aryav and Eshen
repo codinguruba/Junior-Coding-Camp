@@ -90,3 +90,38 @@ if(choice == 1):
 if(choice ==2):
     multiply = number1*number2
     print(multiply)
+
+#Important code
+num1 = int(input("Enter a number:"))
+
+if(num1>0):
+    print("Positive number")
+    
+elif(num1 == 0):
+    print("The number is 0")
+    
+else:
+    print("The number is negative...")
+    
+print("Coding is so fun...")
+
+# Code
+number1 = int(input("Enter number1:"))
+number2 = int(input("Enter number2:"))
+choice = int(input("Press 1 for add , 2 for multiply , 3 subtract:"))
+
+if(choice == 1):
+    add = number1+number2
+    print(add)
+    
+elif(choice ==2):
+    product = number1*number2
+    print(product)
+    
+elif(choice ==3):
+    subtract = number1-number2
+    print(subtract)
+    
+else:
+    print("INVALID")
+
