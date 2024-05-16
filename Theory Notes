@@ -1,0 +1,25 @@
+
+Variables in Python are containers that are useed to store data
+To declare a variable in python simply write its name
+
+pokemon_name = "Pikachu"
+
+
+Data Type
+Variables can store data of different types, and different types can do different things.
+String  - Apple , Rajesh Hamal , Nepal
+int - 0 , 44 , 18 ,20
+float - 3.4 , 4.5 ,6.6
+
+
+Python Booleans
+Booleans represent one of two values: True or False.
+In programming you often need to know if an expression is True or False.
+You can evaluate any expression in Python, and get one of two answers, True or False.
+
+print(55==55)  - True
+print(3>12) - False
+
+List
+Lists are used to store multiple items in a single variable.
+mylist = ["apple","banana","mango","litchi"]
