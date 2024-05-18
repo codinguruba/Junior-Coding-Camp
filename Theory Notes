@@ -46,3 +46,11 @@ To loop through a set of code a specified number of times, we can use the range(
 
 for x in range(0,6):
    print("Helloworld")
+
+Functions:
+A function is a block of code which only runs when it is called.
+
+def function1():
+  print("Helloworld from a function")
+
+function1()
