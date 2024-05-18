@@ -23,3 +23,26 @@ print(3>12) - False
 List
 Lists are used to store multiple items in a single variable.
 mylist = ["apple","banana","mango","litchi"]
+
+Tuples are used to store multiple items in a single variable.
+A tuple is a collection which is ordered and unchangeable.
+
+mytuple = ("apple", "banana", "mango")
+
+Python supports the usual logical conditions from mathematics:
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+
+Python For Loops
+A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+
+The range() Function
+To loop through a set of code a specified number of times, we can use the range() function
+
+for x in range(0,6):
+   print("Helloworld")
