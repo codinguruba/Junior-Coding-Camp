@@ -23,6 +23,9 @@ Booleans represent one of two values: True or False.
 In programming you often need to know if an expression is True or False.
 You can evaluate any expression in Python, and get one of two answers, True or False.
 
+print(55==55)  - True
+print(3>12) - False
+
 Taking Input from User
 # Problem
 name = input("Enter your name:")
@@ -32,8 +35,14 @@ print("The name you entered is",name)
 print("The address you entered is",address)
 print("The age you entered is",age)
 
-print(55==55)  - True
-print(3>12) - False
+
+Operator	Name	Example	Try it
++	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y
+
 
 List
 Lists are used to store multiple items in a single variable.
