@@ -11,6 +11,12 @@ String  - Apple , Rajesh Hamal , Nepal
 int - 0 , 44 , 18 ,20
 float - 3.4 , 4.5 ,6.6
 
+Comments in Python - Comments  can be used to explain Python code. Comment is not executed
+Comments starts with  # 
+Example of a comment
+#This is comment and it doesn't get printed
+print("Welcome to python")
+
 
 Python Booleans
 Booleans represent one of two values: True or False.
