@@ -125,3 +125,20 @@ elif(choice ==3):
 else:
     print("INVALID")
 
+outdoor = ["cricket","football","basketball"]
+indoor = ["chess","ludo","snooker"]
+e_sports = ["roblox","fifa","minecraft"]
+user_choice = input("Hey what do you play:")
+
+if(user_choice in outdoor):
+    print("So you are a outdoor sports player...")
+    
+elif(user_choice in indoor):
+    print("So you are a indoor sports player...")
+    
+elif(user_choice in e_sports):
+    print("So you are a esports lover...")
+    
+else:
+    print("Please choose the sports from our list....")
+
